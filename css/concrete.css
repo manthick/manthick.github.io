@@ -6,4 +6,13 @@ body {
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
+  font-size: 28;
 }
+.font-text {
+  font-family: "Roboto Condensed", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 22;
+}
+
