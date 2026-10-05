@@ -15,6 +15,6 @@ body {
   font-style: normal;
   font-size: 22;
 }
-.rotate-right {
+.rotate-left {
   transform: rotate(20deg);
 }
