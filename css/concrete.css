@@ -1,19 +1,37 @@
 body {
-  background-color: #e5e5e5;
+  /*background-color: #cce5ff;*/
+  animation: colorCycle 60s infinite alternate;
+}
+@keyframes colorCycle {
+  0% {
+    background-color: #bfbfbf;
+  }
+  25% {
+    background-color: #f2f2f2;
+  }
+  50% {
+    background-color: #cce5ff;
+  }
+  75% {
+    background-color: #80d4ff;
+  }
+  100% {
+    background-color: #bfbfbf;
+  }
 }
 .font-title {
   font-family: "Roboto Condensed", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
-  font-size: 28;
+  font-size: 28px;
 }
 .font-text {
   font-family: "Roboto Condensed", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
-  font-size: 22;
+  font-size: 22px;
 }
 .rotate-left {
   transform: rotate(20deg);
@@ -25,4 +43,37 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: center;
+}
+.font-leave {
+  font-family: "Kablammo", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "MORF" 0;
+  font-size: 50px;
+  color: #006600;
+}
+.font-crow {
+  font-family: "Fontdiner Swanky", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
+  color: black;
+}
+.font-snow {
+  font-family: "Bagel Fat One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
+  color: white;
+}
+.no-flex-container {
+  text-align: center;
+}
+.font-trunk {
+  font-family: "Rubik Distressed", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 35px;
+  color: #663300;
 }
