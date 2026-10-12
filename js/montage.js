@@ -7,8 +7,8 @@ let caption = document.querySelector("#caption");
 
 let data = [
     {
-        "start": "00:00:40",
-        "end": "00:00:44",
+        "start": "00:01:40",
+        "end": "00:01:44",
         "description": "Ship on sail"
     },
     {
