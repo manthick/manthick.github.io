@@ -7,31 +7,107 @@ let caption = document.querySelector("#caption");
 
 let data = [
     {
-        "start": 140,
-        "end": 240,
-        "description": "Ship on sail"
+        "start": "00:01:11",
+        "end": "00:01:13",
+        "description": "Battle Ship On Sail"
     },
     {
-        "start": "01:05:00",
-        "end": "1:05:15",
-        "description": "clip 1"
+        "start": "01:04:19",
+        "end": "1:04:28",
+        "description": "Battle Ship On Sail"
     },
     {
-        "start": 2500,
-        "end": 2505,
-        "description": "clip 2"
+        "start": "00:04:14",
+        "end": "00:04:33",
+        "description": "A New Day Is Starting"
     },
     {
-        "start": 499,
-        "end": 503,
-        "description": "clip 3"
+        "start": "00:08:40",
+        "end": "00:08:59",
+        "description": "Working Hard"
     },
     {
-        "start": 1595,
-        "end": 1610,
-        "description": "clip 4"
+        "start": "00:10:05",
+        "end": "00:10:21",
+        "description": "Enjoy The Meal"
+    },
+    {
+        "start": "00:14:19",
+        "end": "00:14:53",
+        "description": "Call To Assembly"
+    },
+    {
+        "start": "00:14:57",
+        "end": "00:15:25",
+        "description": "Here Comes The Captain"
+    },
+    {
+        "start": "00:15:41",
+        "end": "00:15:57",
+        "description": "The Captain's Speech"
+    },
+    {
+        "start": "00:16:10",
+        "end": "00:16:12",
+        "description": "The Captain's Speech"
+    },
+    {
+        "start": "00:16:19",
+        "end": "00:16:25",
+        "description": "The Captain's Speech"
+    },
+    {
+        "start": "00:56:31",
+        "end": "00:56:32",
+        "description": "The Captain's Speech"
+    },
+    {
+        "start": "00:16:37",
+        "end": "00:16:43",
+        "description": "The Captain's Speech"
+    },
+    {
+        "start": "01:08:39",
+        "end": "01:08:41",
+        "description": "Meeting Another Ship"
+    },
+    {
+        "start": "01:09:28",
+        "end": "01:09:45",
+        "description": "Meeting Another Ship"
+    },
+    {
+        "start": "01:10:22",
+        "end": "01:10:33",
+        "description": "Meeting Another Ship"
+    },
+    {
+        "start": "00:43:56",
+        "end": "00:44:40",
+        "description": "Welcome Our Hero"
+    },
+    {
+        "start": "00:45:04",
+        "end": "00:46:33",
+        "description": "Welcome Our Hero"
+    },
+    {
+        "start": "00:46:38",
+        "end": "00:46:46",
+        "description": "Gift Of Love"
+    },
+    {
+        "start": "00:46:56",
+        "end": "00:47:13",
+        "description": "Gift Of Love"
+    },
+    {
+        "start": "00:56:17",
+        "end": "00:56:23",
+        "description": ""
     }
 ];
+
 
 //begins when video is capable of being played, only fires once
 vid.addEventListener("canplay", function () {
