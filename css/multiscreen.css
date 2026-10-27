@@ -1,0 +1,21 @@
+body {
+    background: #342932;
+    color: white;
+    font-family: sans-serif;
+}
+
+.fScreen {
+  width: 25vw;
+}
+
+.fScreen:hover {
+  cursor: pointer;
+}
+
+.invert {
+  filter: invert(100%);
+}
+
+.blur {
+  filter: blur(5px);
+}
